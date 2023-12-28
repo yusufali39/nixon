@@ -1,0 +1,41 @@
+.faq {
+    margin-top: 20px;
+    margin-left: 2rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+.faqshead {
+    margin-top: 50px;
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.details{
+    font-size: 1.4rem;
+    width: 60%;
+}
+
+summary {
+    font-weight: 700;
+}
+summary:hover {
+    cursor: pointer;
+}
+
+details[open] summary {
+    color: rgb(39, 59, 187);
+}
+
+/*solution*/
+
+details[open] p {
+    margin-left: 20px;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #fff;
+    background-color: #141313;
+    padding: 1rem;
+}

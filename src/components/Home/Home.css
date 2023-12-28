@@ -1,0 +1,83 @@
+.helo {
+    min-height: 100vh;
+    height: 100vh;
+}
+.content{
+    width: 100%;
+    margin-top: 4rem;
+}
+.content-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto; 
+    width: 80%;
+}
+.content-image::before{
+    margin-bottom: 10px;
+}
+.content-image {
+    width: 30vh; 
+}
+.content h1{
+    width: 80%;
+    font-size: 54px;
+    color: 33332D;
+}
+.content h2{
+    margin-bottom:25px;
+    width: 80%;
+    font-size: 29px;
+}
+.content p{
+    margin-top: 25px;
+    width: 80%;
+    font-size: 18px;
+    color: var(--text-color);
+}
+.button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    margin-top: 10px;
+}
+.content .button:hover {
+    background: #151515;
+    color: rgb(220, 220, 220);
+}
+.image-phone{
+    margin-top: -50%;
+    display: none;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.content-image2 {
+    display: none;
+    width: 100%; 
+}
+.overview{
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+}
+.overview h1{
+    margin-bottom: 10px;
+    padding-left: 15px;
+    color: var(--text-color);
+    font-size: 25px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+.overview p{
+    margin-bottom: 10px;
+}
